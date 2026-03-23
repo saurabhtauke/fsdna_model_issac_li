@@ -1,0 +1,22 @@
+[project]
+name = "fsdna-model-issac-li"
+version = "0.1.0"
+description = "Flow-stretched DNA modeling utilities."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "ipykernel",
+    "pandas",
+]
+
+[build-system]
+requires = ["pdm-backend>=2.4.0"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+package-dir = "src"

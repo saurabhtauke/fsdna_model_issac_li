@@ -6,7 +6,7 @@ Edit the numbers below, save the file, then run:
 
 CONFIG = {
     # Required experimental inputs
-    "flow_rates_ul_min": [0.1, 0.5, 1.0, 2.0, 5.0, 10.0],
+    "flow_rates_ul_min": [1.0, 2.0, 5.0, 10.0, 20.0, 50.0, 100.0,200.0,500.0], # in uL/min
     "channel_height_um": 120.0,
     "channel_width_um": 1200.0,
     "dna_length_bp": 22900,
